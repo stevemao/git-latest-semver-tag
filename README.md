@@ -23,7 +23,8 @@ gitLatestSemverTag(function(err, tag) {
 
 ```sh
 $ npm install --global git-latest-semver-tag
-$ git-latest-semver-tag --help
+$ git-latest-semver-tag
+v1.0.0
 ```
 
 
