@@ -53,3 +53,11 @@ it('should get the correct latest semver tag', function(done) {
     done();
   });
 });
+
+it('should ensure it works if I run it again', function(done) {
+  gitLatestSemverTag(function(err, tag) {
+    assert.equal(tag, 'v3.0.0');
+
+    done();
+  });
+});

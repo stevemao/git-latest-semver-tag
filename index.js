@@ -5,6 +5,7 @@ var regex = /tag:\s*(.+?)[,\)]/gi;
 var cmd = 'git log --date-order --tags --simplify-by-decoration --pretty=format:"%d"';
 
 module.exports = function(callback) {
+  regex.lastIndex = 0;
   exec(cmd, function(err, data) {
     if (err) {
       callback(err);
