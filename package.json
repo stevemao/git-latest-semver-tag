@@ -1,6 +1,6 @@
 {
   "name": "git-latest-semver-tag",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the most recent git semver tag of your repository",
   "homepage": "https://github.com/stevemao/git-latest-semver-tag",
   "author": {
