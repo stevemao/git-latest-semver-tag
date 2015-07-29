@@ -19,7 +19,8 @@
     "recent",
     "semver",
     "tag",
-    "git-tag"
+    "git-tag",
+    "git"
   ],
   "dependencies": {
     "meow": "^3.1.0",
