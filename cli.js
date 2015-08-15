@@ -7,7 +7,7 @@ meow({
   help: [
     'Usage',
     '  git-latest-semver-tag'
-  ].join('\n')
+  ]
 });
 
 gitLatestSemverTag(function(err, tag) {
