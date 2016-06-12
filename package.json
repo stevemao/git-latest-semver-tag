@@ -23,8 +23,8 @@
     "git"
   ],
   "dependencies": {
-    "meow": "^3.3.0",
-    "semver": "^5.0.1"
+    "git-semver-tags": "^1.1.2",
+    "meow": "^3.3.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
