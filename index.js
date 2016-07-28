@@ -1,11 +1,12 @@
 'use strict';
 var gitSemverTags = require('git-semver-tags');
 
-module.exports = function(callback) {
-  gitSemverTags(function(error, tags) {
-    if (error) {
-      return callback(error);
+module.exports = function(cb) {
+  gitSemverTags(function(err, tags) {
+    if (err) {
+      cb(err);
+      return;
     }
-    callback(null, tags[0] || '');
+    cb(null, tags[0] || '');
   });
 };
